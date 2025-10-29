@@ -1,14 +1,14 @@
-Pomodoro-based Study Timer
-Provides a customizable study timer using the Pomodoro Technique (e.g., 25 min work + 5 min break) to improve concentration and time management.
+Intelligent Pomodoro Timer
+Implements a customizable Pomodoro-style timer that adapts to user habits. It supports automatic session switching (focus/break) and visual/auditory notifications to help maintain consistent study rhythm.
 
-Study Behavior Tracking
-Records key learning statistics such as total study time, number of pauses, and completed tasks, helping users monitor productivity patterns.
+Comprehensive Study Analytics
+Tracks detailed learning metrics, including total study time, session count, pause frequency, and task completion rate. Provides weekly and monthly summaries for progress evaluation.
 
-Local Data Storage (SQLite)
-Stores all session data securely in a local SQLite database to ensure user privacy and allow offline use without cloud dependency.
+Secure Local Data Management (SQLite)
+All user data—including session logs and analytics—is securely stored in a local SQLite database. No cloud uploads are required, ensuring full privacy and offline accessibility.
 
-Automatic Study Report & Recommendations
-Generates study summaries and gives personalized suggestions—like when to take breaks or adjust study duration—based on recorded data.
+Personalized Study Recommendations
+Based on user data and behavioral trends, the system automatically generates adaptive suggestions (e.g., optimal study duration, break timing, focus improvement tips) to enhance efficiency.
 
-Visual Progress Dashboard (JavaFX/Swing)
-Displays charts and visual indicators showing daily, weekly, or monthly study performance trends in a user-friendly interface.
+Interactive Visualization Dashboard
+Uses JavaFX/Swing charts to present dynamic visual reports of performance trends, allowing users to easily review study patterns and identify areas for improvement.
